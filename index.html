@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WL Cortes — Barbearia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Barlow+Condensed:wght@300;400;500;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursorDot"><div class="cursor-dot"></div></div>
+  <div class="cursor" id="cursorRing"><div class="cursor-ring"></div></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">WL  Cortes  </a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#planos">Planos mensais</a></li>
+      <li><a href="#agendamento">Agendar</a></li>
+    </ul>
+    <a href="#agendamento" class="nav-cta">Reservar</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <!-- <div class="hero-lines"></div> -->
+    <!-- <div class="hero-image-col">
+      <div class="hero-image-inner"></div>
+    </div> -->
+    <div class="hero-deco-line"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Desde 2021 · São Paulo</p>
+      <h1 class="hero-title">
+        A Arte<br>do <em>Corte</em><br>WL Cortes
+      </h1>
+      <p class="hero-subtitle">Tradição, precisão e estilo em cada detalhe. Uma experiência de barbearia que vai além do corte — é um ritual masculino.</p>
+      <div class="hero-actions">
+        <a href="#agendamento" class="btn-primary">Agendar Horário</a>
+        <a href="#servicos" class="btn-ghost">Ver Serviços</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-number" id="stat1">0</div>
+        <div class="stat-label">Anos de Experiência</div>
+      </div>
+      <div>
+        <div class="stat-number" id="stat2">0</div>
+        <div class="stat-label">Clientes Satisfeitos</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-ornament">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about reveal" id="sobre">
+    <div class="about-visual">
+      <div class="about-corner"></div>
+      <div class="about-frame">
+        <div class="about-frame-inner">
+          <img src="barbearia.jpeg/1.jpeg" class="about-slide active" alt="Corte 1" />
+          <img src="barbearia.jpeg/2.jpeg" class="about-slide" alt="Corte 2" />
+          <img src="barbearia.jpeg/3.jpeg" class="about-slide" alt="Corte 3" />
+          <img src="barbearia.jpeg/4.jpeg" class="about-slide" alt="Corte 4" />
+          <img src="barbearia.jpeg/5.jpeg" class="about-slide" alt="Corte 5" />
+          <img src="barbearia.jpeg/6.jpeg" class="about-slide" alt="Corte 6" />
+        </div>
+      </div>
+      <div class="about-badge">
+        <span class="about-badge-num">5</span>
+        <span class="about-badge-text">Anos de<br>Tradição</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <h2 class="section-title">Onde tradição<br>encontra o <em>moderno</em></h2>
+      <p>Na WL Cortes, cada cliente recebe um atendimento exclusivo, pensado nos mínimos detalhes para proporcionar estilo, conforto e personalidade. Trabalhamos com técnicas atuais, acabamento de qualidade e produtos selecionados para entregar sempre o melhor visual.</p>
+      <a href="#agendamento" class="btn-primary" style="margin-top:1rem; display:inline-block;">Conhecer Pessoalmente</a>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-ornament">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services reveal" id="servicos">
+    <div class="services-header">
+      <div>
+        <p class="section-eyebrow">O Que Oferecemos</p>
+        <h2 class="section-title">Nossos <em>Serviços</em></h2>
+      </div>
+      <a href="#agendamento" class="btn-primary">Garanta o seu</a>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-num">01</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Corte degradê</div>
+        <p class="service-desc">O degradê é um estilo de corte moderno que cria uma transição suave entre os fios mais baixos e mais altos, trazendo um visual alinhado, elegante e cheio de personalidade.</p>
+        <div class="service-price">R$ 35 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">02</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Corte social</div>
+        <p class="service-desc">O corte social é um estilo clássico e versátil, com acabamento alinhado e elegante, ideal para quem busca um visual moderno, discreto e profissional.</p>
+        <div class="service-price">R$ 30 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">03</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Sobrancelha</div>
+        <p class="service-desc">A sobrancelha bem desenhada valoriza o olhar e destaca a expressão do rosto, trazendo um visual mais alinhado, elegante e harmonioso.</p>
+        <div class="service-price">R$ 10 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">04</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Cavanhaque</div>
+        <p class="service-desc">O cavanhaque é um estilo que transmite personalidade e atitude, valorizando o contorno do rosto com um visual moderno, elegante e marcante.</p>
+        <div class="service-price">R$ 20 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">05</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Corte e barba</div>
+        <p class="service-desc">O combo de corte e barba traz um visual completo e alinhado, unindo estilo, personalidade e elegância para destacar ainda mais sua aparência.</p>
+        <div class="service-price">R$ 60 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">06</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Corte e alisante</div>
+        <p class="service-desc">O corte com alisante combina estilo e praticidade, deixando os fios mais alinhados, com acabamento moderno, elegante e um visual sempre impecável.</p>
+        <div class="service-price">R$ 65 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">07</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Corte e progressiva</div>
+        <p class="service-desc">O corte com progressiva proporciona um visual moderno e sofisticado, deixando os fios mais lisos, alinhados e com um acabamento impecável.</p>
+        <div class="service-price">R$ 100 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">08</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Luzes</div>
+        <p class="service-desc">As luzes trazem mais destaque e personalidade ao visual, iluminando os fios com um efeito moderno, estiloso e cheio de atitude.</p>
+        <div class="service-price">R$ 120 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">09</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Corte e penteado</div>
+        <p class="service-desc">O corte com penteado valoriza o visual com um acabamento estiloso e bem alinhado, trazendo versatilidade e elegância para diferentes ocasiões.</p>
+        <div class="service-price">R$ 70 <span>/ sessão</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">10</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Pigmentação</div>
+        <p class="service-desc">A pigmentação realça e define melhor os fios, corrigindo falhas e proporcionando um visual mais cheio, natural e bem alinhado.</p>
+        <div class="service-price">R$ 15 <span>/ sessão</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-ornament">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- PLANS -->
+  <section class="plans reveal" id="planos">
+    <div class="plans-header">
+      <h2 class="section-title">Planos<em> mensais</em></h2>
+    </div>
+    <div class="services-grid plans-grid">
+      <div class="service-card">
+        <span class="service-num">01</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Plano Básico</div>
+        <p class="service-desc">Corte 4 vezes com sobrancelha.</p>
+        <div class="service-price">R$ 150 <span>/ mês</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">02</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Plano Premium</div>
+        <p class="service-desc">Corte + barba + sobrancelha 4 vezes.</p>
+        <div class="service-price">R$ 200 <span>/ mês</span></div>
+      </div>
+      <div class="service-card">
+        <span class="service-num">03</span>
+        <span class="service-icon">💈</span>
+        <div class="service-name">Plano VIP</div>
+        <p class="service-desc">2 cortes para o filho + 4 para o pai.</p>
+        <div class="service-price">R$ 200 <span>/ mês</span></div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-ornament">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- BOOKING -->
+  <section class="booking reveal" id="agendamento">
+    <div class="booking-inner">
+      <div class="booking-info">
+        <p class="section-eyebrow">Reserve o Seu Horário</p>
+        <h2 class="section-title">Agende sua <em>Visita</em></h2>
+        <p>Garanta seu horário com antecedência e chegue para uma experiência onde você é a prioridade. Atendimento personalizado do início ao fim.</p>
+        <div class="booking-hours">
+          <h4>Horários de Funcionamento</h4>
+          <div class="hours-row"><span>Segunda – Sexta</span><span>10:00 – 20:00</span></div>
+          <div class="hours-row"><span>Sábado</span><span>10:00 – 18:00</span></div>
+          <div class="hours-row"><span>Domingo</span><span>Fechado</span></div>
+        </div>
+      </div>
+      <form class="booking-form booking-form--barber" onsubmit="handleBooking(event)">
+        <div class="team-card booking-team-card">
+          <div class="team-photo">
+            <img src="barbearia.jpeg/inicio.jpeg" alt="William Leandro" class="booking-barber-photo" />
+            <div class="team-photo-tag">
+              <div class="team-name">William Leandro</div>
+              <div class="team-role">Fundador &amp; Barbeiro</div>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/5511962262398" class="btn-submit" target="_blank">Agendar via WhatsApp →</a>
+      </form>
+    </div>
+  </section>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-ornament">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials reveal" id="depoimentos">
+    <div class="testimonials-header">
+      <p class="section-eyebrow">O Que Dizem</p>
+      <h2 class="section-title"><em>Avaliações</em></h2>
+    </div>
+    <div class="testimonials-track">
+      <div class="testimonials-inner" id="testimonialsInner"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">WL cortes </a>
+        <p>Mais do que uma simples barbearia, este é o seu espaço para renovar a autoestima, ganhar confiança e sair pronto para qualquer ocasião.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/_wlcortes011/" class="social-btn" target="_blank" title="Instagram">IG</a>
+          <a href="https://wa.me/5511962262398" class="social-btn" target="_blank" title="WhatsApp">WA</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#planos">Planos mensais</a></li>
+          <li><a href="#agendamento">Agendamento</a></li>
+          <li><a href="#depoimentos">Avaliações</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Serviços</h5>
+        <div class="footer-services">
+        <ul>
+          <li><a href="#servicos">Corte Degradê</a></li>
+          <li><a href="#servicos">Corte Social</a></li>
+          <li><a href="#servicos">Sobrancelha</a></li>
+          <li><a href="#servicos">Cavanhaque</a></li>
+          <li><a href="#servicos">Corte e Barba</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#servicos">Corte e Alisante</a></li>
+          <li><a href="#servicos">Corte e Progressiva</a></li>
+          <li><a href="#servicos">Luzes</a></li>
+          <li><a href="#servicos">Corte e Penteado</a></li>
+          <li><a href="#servicos">Pigmentação</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Localização</h5>
+        <address>
+          Estrada velha da olaria, 406A<br>
+          Cotia, São Paulo<br>
+          SP — 01304-001<br>
+          (11) 96226-2396<br>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2026 WL cortes. Todos os direitos reservados.</p>
+      <div class="footer-devs">
+        <span class="footer-devs-label">Desenvolvedores</span>
+        <a href="mailto:guilhermedecampos.dev@gmail.com" class="footer-devs-email">guilhermedecampos.dev@gmail.com</a>
+        <a href="mailto:jeovannysoares.dev@gmail.com" class="footer-devs-email">jeovannysoares.dev@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
