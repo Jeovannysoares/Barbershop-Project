@@ -15,3 +15,4 @@ Interactive Footer
 
 Objective
 I created a website to showcase the barbershop and the services offered.
+https://jeovannysoares.github.io/Barbershop-Project/
