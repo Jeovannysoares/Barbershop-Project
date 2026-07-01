@@ -1,4 +1,4 @@
-Barber Project
+#Barber Project#
 Development of a professional website for a barbershop.
 
 Technologies Used ✅
